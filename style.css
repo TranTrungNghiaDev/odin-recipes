@@ -1,6 +1,14 @@
 * {
     font-family: Poppins, Roboto, sans-serif;
-    background-color:#EFE2BA;
+    background-color:#ECECEC;
+}
+
+body {
+    padding: 20px 40px;
+}
+
+h1 {
+    font-size: 48px;
 }
 
 h1, h2, #recipe-describe  {
@@ -15,4 +23,58 @@ img {
     display: block;
     margin-left: auto;
     margin-right: auto;
+}
+
+#ingredients, #steps {
+    padding: 10px 20px;
+    margin: 40px auto;
+}
+
+#ingredients {
+    background-color: #90CCF4;
+}
+
+#steps {
+    background-color: #F78888;
+    margin-bottom: 20px;
+}
+
+h2,ul, ol, li {
+    background-color: inherit;
+}
+
+li {
+    margin: 10px auto;
+}
+
+ul .recipe-item {
+    list-style: none;
+}
+
+.recipe-item {
+    text-align: center;
+    margin: 20px;
+}
+
+.recipe-item a {
+    display: block;
+    margin: 10px;
+    font-size: 20px;
+    padding: 10px;
+    text-decoration: none;
+    color: black;
+}
+
+.recipe-item a:hover {
+    color: rgb(87, 87, 87);
+}
+
+.img-recipe-link:hover {
+    opacity: 0.6;
+}
+
+.img-recipe-link {
+    width: 50%;
+    height: auto;
+    margin: 10px auto;
 }
